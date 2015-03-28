@@ -18,9 +18,21 @@ Aquest repositori té el codi del web [drupal.cat](http://drupal.cat), realitzat
 1. Fer un fork d'aquest repositori
 2. Clonar el fork d'aquest repositori
 3. Accedir dins la carpeta drupalcat creada per defecte `cd drupalcat`
-4. Copiar el fitxer `drupalcatinstall.sh.example` i anomenar-lo `drupalcatinstall.sh` executant la comanda `cp drupalcatinstall.sh.example drupalcatinstall.sh`
-5. Editar el fitxer `drupalcatinstall.sh` amb les dades de la vostra base de dades.
-6. Executar el fitxer `drupalcatinstall.sh` amb la comanda `./drupalcatinstall.sh`
+4. Crear settings.local.php amb la informació de base de dades
+
+<?php
+$databases['default']['default'] = array (
+  'database' => 'test',
+  'username' => 'root',
+  'password' => 'Password',
+  'prefix' => '',
+  'host' => 'localhost',
+  'port' => '',
+  'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
+  'driver' => 'mysql',
+);
+
+5. Executar el fitxer `drupalcatinstall.sh` amb la comanda `./drupalcatinstall.sh`
 
 ### Instal·lació manual
 1. Clonar aquest repositori `git clone git@github.com:Drupalcat/drupalcat.git`

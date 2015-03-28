@@ -4,7 +4,9 @@ docroot
 
 # User files #
 ##############
-drupalcatinstall.sh
+settings.local.php
+local.sh
+local.make
 
 # OS generated files #
 ######################
