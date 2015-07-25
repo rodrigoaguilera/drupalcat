@@ -7,8 +7,9 @@ defaults[projects][subdir] = "contrib"
 
 ; Core
 projects[drupal][download][type] = git
-;projects[drupal][download][tag] = 8.0.0-beta6
-projects[drupal][download][revision] = ffea3bb91d11f95ee89275f95546b351377c02b0
+projects[drupal][download][tag] = 8.0.0-beta11
+;projects[drupal][download][revision] = ffea3bb91d11f95ee89275f95546b351377c02b0
+
 
 ; Contrib modules
 ;
