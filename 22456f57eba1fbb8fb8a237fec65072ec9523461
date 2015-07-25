@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "9ad9bd40_8a694ac0",
+        "filename": "drupalcat.make",
+        "patchSetId": 1
+      },
+      "lineNbr": 10,
+      "author": {
+        "id": 1005834
+      },
+      "writtenOn": "2015-07-25T22:00:33Z",
+      "side": 1,
+      "message": "Can you update also the other projects?",
+      "range": {
+        "startLine": 10,
+        "startChar": 40,
+        "endLine": 10,
+        "endChar": 46
+      },
+      "revId": "22456f57eba1fbb8fb8a237fec65072ec9523461",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
